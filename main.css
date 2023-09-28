@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header{
+} */
+header h1{
+    font-weight:200;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    color: #99fa99;
+}
+header h2{
+    font-weight: 100;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #b6d8cf;
+}
+.container{
+    text-align: center;
+    
+}
+nav .nav-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav .nav-links ul li{
+    padding: 0 3.5% 0 3.5%;
+}
+a{
+    text-decoration: none;
+}
+.writeup{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #077054;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    background-color: white;
+    margin: 0 14.5% 0 14.5%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap-reverse; */
+}
+.Businesspic{
+    width: 50%;
+}
+.writeup .purple_separator{
+    background-color: #d3a3ff;
+    height: 10px;
+    margin: 0 30% 0 30%;
+}
+.writeup{
+    color: #5fbe5d;
+    margin: 15% 10% 10% 10%;
+}
+.writeup p:nth-child(1){
+    font-size: 4em;
+    font-weight: 100;
+}
+.writeup p:nth-child(3){
+    font-size: 4em;
+    font-weight: 100;
+}
+footer{
+    /* margin: 0 10% 0 10%; */
+}
+.adress{
+    color: #99fa99;
+    font-size: 1.4em;
+}
+.adress p:nth-child(2){
+    color: #b6d8cf;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width:1000px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    section{
+        margin: 0 5% 0 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .writeup .purple_separator{
+        background-color: #d3a3ff;
+        height: 12px;
+        margin: 0 30% 0 30%;
+    }
+    footer{
+        margin: 0 10% 0 10%;
+    }
+    .Businesspic{
+        width: 100%;
+    }
+    .writeup{
+        margin: 0 15% 0 15%;
+    }
+    nav{
+        display: none;
+    }
+}
